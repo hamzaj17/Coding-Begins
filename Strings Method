@@ -1,0 +1,100 @@
+ a = "hamza"
+
+print(a.upper())
+
+print(a.lower())
+
+print(a.upper())
+
+b = "babar azam!!!"
+
+print(b.rstrip("!"))
+
+# the rstrip() removes any trailing characters e.g (!)
+
+# Strings are immutable
+
+print(a.replace ("hamza" , "roman"))
+
+print(b.replace("babar azam!!!" , "rizwan"))
+
+#  replace() method replaces all occurences of a string with another string
+
+c = "youtube !!!!!!! thumbnail"
+
+print(c.split())
+
+Heading = "pythOn iNterpreTer"
+
+print(Heading.capitalize())
+
+# Capitalize method turns first character of the string to uppercase and the rest of the characters of string to lowercase
+
+str1 = "welcome to the database!!!"
+
+print(str1.center(50))
+
+# center() method aligns the string to the center as per the parameters given by the user.
+
+print(len(str1))
+
+print(len(str1.center(50)))
+
+print(a.count("hamza"))
+
+# count() method returns the number of times the given value has occurred within the given string.
+
+print(str1.endswith("!!!"))
+
+# endswith() method checks if the string ends with a given value. If yes then return True, else return False.
+
+str2 = "Welcome to the Console !!!"
+
+print(str2.endswith("le", 4, 22))
+
+str1 = "He's name is Dan. He is an honest man."
+
+print(str1.find("is"))
+
+#  find() method searches for the first occurrence of the given value and returns the index where it is present. If given value is absent from the string then return -1.(gives ans that at which no. word is present)
+
+str3 = "EnemiesRushingTowardsTheSquadHouse6"
+
+print(str3.isalnum())
+
+# in (isalnum) capital A-Z , a-z ,0-9 
+
+str4 = "EnemiesRushingTowardsTheSquadHouse000"
+
+print(str4.isalpha())
+
+# in (isalpha) capital A-Z , a-z but no numbers included
+
+print(a.islower())
+
+# (islower) for small letter words
+
+print(a.isupper()) 
+
+# (isupper) for capital letter words
+
+str5 = "       "
+
+print(str5.isspace())  #using spacebar
+
+str6 = "Enemies Rushing Towards Base"
+
+print(str6.istitle())
+
+#  istitile() returns True only if the first letter of each word of the string is capitalized, else it returns False.
+
+print(str6.swapcase())
+
+#  Upper case are converted to lower case and lower case to upper case with (swapcase)
+
+str1 = "HE's naMe is DAn. Dan iS AN hoNEst mAn."
+
+print(str1.title())
+
+# The title() method capitalizes each first letter of the word within the string.
+
